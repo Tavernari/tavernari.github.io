@@ -25,6 +25,12 @@ In my career, I've honed my skills in iOS (Swift/Objective-C) and React Native d
 
 ## [📓](posts.md) Posts
 
+📋 **04/01/2026** [I beat a Standard GPT on my Mac using "Magnetic" Neurons (and Gemini 3 Pro)](/2026/01/04/I_beat_a_Standard_GPT.md)
+
+Explore the journey of creating RippleGPT, a new neural architecture inspired by the "Folded Cloth" theory. Using "magnetic" neurons and multiplicative gating, this model outperformed a standard GPT on a MacBook Pro, demonstrating superior training loss and remarkable length extrapolation capabilities.
+
+---
+
 📋 **09/02/2024** [Optimizing Data Storage in Swift: Insights from AppleTV HD and iPhone 12 Pro Benchmarks](/2024/02/09/Cache_Types_Benchmark.md)
 
 Delve into the nuances of data storage performance across different Swift storage solutions with our comprehensive benchmark study on AppleTV HD and iPhone 12 Pro. This analysis sheds light on the efficiency of various storage methods, highlighting GRDB-based solutions' superiority for JSON data handling. Whether you're a seasoned Swift developer or just starting, understanding these performance benchmarks can significantly influence your app's responsiveness and user experience. Uncover the key to optimizing your Swift applications by choosing the right data storage method with our detailed examination.

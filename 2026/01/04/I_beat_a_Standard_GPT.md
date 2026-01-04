@@ -42,6 +42,8 @@ Before tackling language, we tried a physics problem. We tried to teach a networ
 *   **The Standard Neural Net (Red Line):** Tried to memorize the shape. It failed miserably. It just drew a straight line through the middle because the signal got lost in the deep layers (the Vanishing Gradient problem).
 *   **Our RippleNet (Blue Line):** We gave it a "magnetic field" that decayed layer by layer. It didn't memorize the spiral; it learned the *equation* of the spiral. The reconstruction was perfect.
 
+![3D Spiral](./3d_signal.png)
+
 That was the "Aha!" moment. We knew we had something.
 
 ## Test 2: The Boss Fight (War and Peace)
@@ -53,6 +55,8 @@ We set up a cage match on my MacBook Pro (64GB RAM).
 *   **Corner 2:** RippleGPT (Our creation).
 
 We trained them on the entire text of Tolstoy's *War and Peace*. To make it harder for myself, **I handicapped RippleGPT**. I forced it to use **18% fewer parameters** than the Standard GPT. If I won, it had to be because of intelligence, not size.
+
+![Battle War and Peace](./battle_war_and_piece.png)
 
 ### The Result?
 
@@ -80,7 +84,7 @@ But by treating Gemini 3 Pro as a co-author—debating math, asking for rigorous
 
 We’ve open-sourced the code. You can run it. You can break it.
 
-**Check out RippleGPT on GitHub:** [Link to your Repo]
+**Check out RippleGPT on GitHub:** [RippleGPT](https://github.com/Tavernari/RippleGPT)
 
 Sometimes, you just need to follow the intuition that "physics should apply to code."
 
